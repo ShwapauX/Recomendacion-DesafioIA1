@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;/**Tipo de letra*/
+    background: linear-gradient(rgb(160, 89, 154),rgb(248, 219, 255)) ;/**Color de fondo*/
+    color: white;/**Color de letra*/
+    margin: 0; /**Elimina el margen predeterminado*/
+    padding: 20px;/**espacio interno de la pagina*/
+}
+#inicio{
+    padding: 10px;/**espacio interno de la pagina*/
+    text-align: center;/**Alineacion del texto*/
+}
+.navbar-brand{
+    color: rgb(147, 31, 224);/**Color de letra*/
+    margin-right: 10px;/**Margen derecho*/
+}
