@@ -3,13 +3,55 @@ body{
     background: linear-gradient(rgb(160, 89, 154),rgb(248, 219, 255)) ;/**Color de fondo*/
     color: white;/**Color de letra*/
     margin: 0; /**Elimina el margen predeterminado*/
-    padding: 20px;/**espacio interno de la pagina*/
+    padding: 90px;/**espacio interno de la pagina*/
 }
 #inicio{
-    padding: 10px;/**espacio interno de la pagina*/
+    padding:15px;/**espacio interno de la pagina*/
     text-align: center;/**Alineacion del texto*/
 }
 .navbar-brand{
     color: rgb(147, 31, 224);/**Color de letra*/
-    margin-right: 10px;/**Margen derecho*/
+    margin-right: 1px;/**Margen derecho*/
+}
+.container{
+    padding: 20px;
+}
+
+.row{
+    background-color: rgba(5, 5, 5, 0.301);
+    padding: 40px;
+    border-radius: 8px;
+
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+}
+.imdb{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+.imdb:hover{
+    color: yellow;
+}
+.corta{
+    color: chartreuse;
+}
+.mediana{
+    color: rgb(238, 255, 0);
+}
+.larga{
+    color: rgb(255, 136, 0);
+}
+
+.card-img-top{
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
 }
