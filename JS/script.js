@@ -1,13 +1,24 @@
 // Si le gusta el anime dar una recomendacion
 
-// const year = prompt("ingrese su año de nacimiento");
-// const name = prompt("ingrese su nombre: ");
-// const lastname = prompt("ingrese su apellido: ");
-// let edad = 2026 - year;
-// alert("hola " + name + lastname + " tu año de nacimiento es " + year + " y tu edad es " + edad + " años");
+let edad = prompt("ingrese tu edad");
+console.log(edad);
+var name = prompt("ingrese su nombre: ");
+console.log(name);
+const lastname = prompt("ingrese su apellido: ");
+console.log(lastname);
+const miSerieFav = "summer time rendering"
+const serieIngresada = prompt("Queremos saber si tu serie favorita es igual que la nuestra");
+const esLaMismaSerie = serieIngresada === miSerieFav
+console.log(esLaMismaSerie);
+let scb = prompt("Que tant chiclebomba es "+serieIngresada+": ", "1-100");
+console.log(scb);
 
-// if (edad >= 18) {
-//     alert("Puedes ver estas series ");
-// } else {
-//     alert("Aun que no contine contenido explicitos se recomiendo esperar a los 18 para disfrutar mejor del contenido");
-// }
+alert("hola " + name +" "+ lastname + " ya que tu edad es " + edad + " años tenemos algo que decirte");
+
+if (edad >= 18) {
+    alert("Puedes ver estas series disfrutalas mucho y manten discresion");
+    console.log(true);
+} else {
+    alert("Contine contenido explicitos como fumar o sangre por lo que se recomiendo esperar a los 18 para disfrutar mejor del contenido");
+    console.log(false);
+}
